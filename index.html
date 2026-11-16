@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Схема гаражей</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.2.1/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.2.1/ol.css">
+</head>
+<body>
+    <header>СХЕМА размещения некапитальных гаражей на територии п. Куеда</header>
+    <!--основное содержимое: карта и панель слоев-->
+    <div class="conteiner">
+    <aside class="sidebar">
+        <h3>Панель слоев</h3>
+        Место для размещения гаража
+        <div class="leg"><img src="./legend.png"></div><br>
+        <label><input type="checkbox" id="tz">Территориальные зоны</label>
+        <div class="legend"><img src="./legend_zone.png"></div>
+    </aside>
+    <main><div id="map"></div></main
+    </div>
+    <div id="popup"><a href="#" id="popup-closer"></a><div id="popup-content"></div></div>
+    </div>
+<footer>&copy 2026 Учебный проект</footer>
+    <script type="module" src="./main.js"></script>
+</body>
+</html> 
